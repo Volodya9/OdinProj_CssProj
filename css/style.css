@@ -1,0 +1,161 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    width: 75%;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+nav{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding: 20px 0; 
+    background-color: #1F2937;
+}
+
+.nav-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-left: 40px;
+}
+
+nav li a{
+    text-decoration: none;
+    color: #e5e8eb;
+    font-size: 18px;
+    line-height: 24px;
+    transition: all .2s ease-in-out;
+}
+
+nav li a:hover{
+    border-bottom: 2px solid #e5e8eb;
+}
+
+nav .logo span{
+    font-size: 24px;
+    line-height: 32px;
+    color: #f9faf8;
+}
+
+.logo span.logo-color{
+    color: #ED563B;    
+}
+
+.main-section{
+    background-color: #1F2937;
+    padding: 150px 0 130px 0;
+    color: #f9faf8;    
+}
+
+.main-content-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-section .main-text-wrapper{
+    max-width: 500px;
+}
+
+.main-section h1{    
+    font-size: 48px;
+    font-weight: bolder;
+    line-height: 62px;
+    margin-bottom: 30px;
+}
+
+.main-section p{
+    font-size: 18px;
+    color: #e5e8eb;
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+
+.main-section a{
+    display: inline-block;
+    text-decoration: none;
+    color: #f9faf8;
+    background-color: #3882f6;
+    border: 2px solid #3882f6;
+    padding: 10px 30px;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.main-section a:hover{
+    transform: scale(1.05);
+    background-color: transparent;
+}
+
+
+.main-img-wrapper img{
+    max-width: 520px;
+    object-fit: cover;
+}
+
+
+.info-section{
+    padding: 40px 0 100px 0;
+}
+
+.info-section h2{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.info-content-wrapper{
+    display: flex;
+    justify-content: space-around;
+}
+
+.info-item{
+    max-width: 22%;    
+    text-align: center;    
+    padding: 10px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.1);;
+}
+
+.info-item img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.info-item p{
+    color: #1F2937;
+    opacity: 0.8;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.quote-section{
+    padding: 130px 0 100px 0;
+    background-color: #e5e7eb;
+}
+
+footer{
+    padding: 40px 0;
+    background-color: #1F2937;
+    text-align: center;
+    color: #f9faf8;
+}
