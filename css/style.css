@@ -44,12 +44,14 @@ nav li a{
     color: #e5e8eb;
     font-size: 18px;
     line-height: 24px;
-    transition: all .2s ease-in-out;
+    transition: all .2s ease;
+    position: relative;
 }
 
 nav li a:hover{
     border-bottom: 2px solid #e5e8eb;
 }
+
 
 nav .logo span{
     font-size: 24px;
@@ -184,6 +186,10 @@ nav .logo span{
     z-index: 11;
 }
 
+.quote-section .quote-wrapper{
+    padding: 0 120px;
+}
+
 
 .quote-section p{
     color: #1F2937;
@@ -194,11 +200,53 @@ nav .logo span{
 }
 
 .banner-section{
-    padding: 100px 0 90px 0;
+    padding: 100px 0 100px 0;
 }
 
-.banner-section .banner-title-span{
+.banner-section .section-title-span{
     color: #ED563B;
+}
+
+.banner-section .banner{
+    width: 100%;
+    background-color: #3882f6;
+    padding: 40px 120px;
+    color: #f9faf8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+
+
+.banner .banner-content-wrapper{
+    max-width: 60%;
+}
+
+.banner h4{
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 10px;
+}
+
+.banner p{
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.banner a{
+    border: 2px solid #f9faf8;
+    text-decoration: none;
+    color: #f9faf8;
+    padding: 10px 40px;
+    border-radius: 20px;
+    margin-right: 30px;
+    transition: all .3s ease-in-out;
+}
+
+.banner a:hover{
+    transform: scale(1.05);
+    background-color: #1F2937;
 }
 
 footer{
